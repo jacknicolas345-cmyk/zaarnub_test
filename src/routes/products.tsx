@@ -84,7 +84,8 @@ import { useEffect, useState } from "react";
 import { ProductCard } from "@/components/ProductCard";
 import { Button } from "@/components/ui/button";
 
-const API = "https://fictional-space-doodle-gxq7pq49796rfw79r-3000.app.github.dev";
+// const API = "https://fictional-space-doodle-gxq7pq49796rfw79r-3000.app.github.dev";
+const API = "https://zaarnub-test.onrender.com/";
 
 type Product = { id: string; name: string; slug: string; price: number; image_url: string | null; material: string | null; category: string | null };
 type Cat = { id: string; name: string; slug: string };
